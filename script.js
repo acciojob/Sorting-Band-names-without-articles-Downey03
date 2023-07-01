@@ -16,7 +16,7 @@ bandNames.sort(function(a,b){
 
 let ul = document.getElementById("band")
 
-for(let i=0;i<bandNames.length() ;i++){
+for(let i=0;i<bandNames.length ;i++){
 	let li = document.createElement("li");
 	li.textContent = bandNames[i];
 	ul.appendChild(li)
