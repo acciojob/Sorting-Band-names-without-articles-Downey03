@@ -11,7 +11,7 @@ function removeArticle(bandName) {
 }
 
 bandNames.sort(function(a,b){
-	return removeArticle(a).localCompare(removeArticle(b));
+	return removeArticle(a).localeCompare(removeArticle(b));
 })
 
 let ul = document.getElementById("band")
